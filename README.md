@@ -32,7 +32,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
@@ -53,3 +53,15 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+
+## Change details
+
+1. 2 images were changed to smaller version, namely profilepic.jpg and pizzeria.jpg.
+2. Linked sytle sheets are moved into html file.
+3. analytics.js was set to async.
+4. The web font was removed.
+5. Function changePizzaSizes(size) in main.js was modified to get rid of force reflow.
+6. Function updatePositions() in main.js was modified to get rid of force reflow.
+7. Minified html and javascript files were not applied for grader convenience.
