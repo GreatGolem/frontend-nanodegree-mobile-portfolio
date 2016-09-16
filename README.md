@@ -56,7 +56,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 
 
-## Change details
+## Optimization details
 
 1. 2 images were changed to smaller version, namely profilepic.jpg and pizzeria.jpg.
 2. Linked sytle sheets are moved into html file.
@@ -65,3 +65,6 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 5. Function changePizzaSizes(size) in main.js was modified to get rid of force reflow.
 6. Function updatePositions() in main.js was modified to get rid of force reflow.
 7. Minified html and javascript files were not applied for grader convenience.
+8. querySelector was replaced with getElementById in main.js.
+9. querySelectorAll was replaced with getElementsByClassName in main.js.
+10. Number of moving pizza is now flexable based on size of viewport.
